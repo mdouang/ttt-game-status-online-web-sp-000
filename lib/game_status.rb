@@ -23,8 +23,6 @@ WIN_COMBINATIONS = [
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
 end
-
-Define your WIN_COMBINATIONS constant
 def turn_count(board)
 board.count{|token| token == "X" || token == "O"}
 
